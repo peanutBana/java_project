@@ -1,0 +1,24 @@
+package test.ch01;
+
+public class Hello {
+
+	public static void main(String[] args) {
+//		System.out.println("Hello Java");
+
+//		int a = 10, b = 12;
+//		int result = a + b;
+//		int num1 = 0b1011;	//2진수 
+//		int num2 = 0206;	//8진수
+//		int num3 = 365;		//10진수
+//		int num4 = 0xB3;	//16진수
+//		long num5 = 10000000000000000l;
+		
+		char ch1 = 'A';
+		char ch2 = 65;
+		
+		
+		
+		System.out.println(ch1+ch2);
+	}
+
+}

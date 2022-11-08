@@ -1,0 +1,15 @@
+package test.ch01;
+
+public class Hello {
+
+	public static void main(String[] args) {
+//		System.out.println("Hello Java");
+
+		int a = 10, b = 12;
+		int result = a + b;
+		int num = 01011;
+
+		System.out.println("결과 : " + num);
+	}
+
+}

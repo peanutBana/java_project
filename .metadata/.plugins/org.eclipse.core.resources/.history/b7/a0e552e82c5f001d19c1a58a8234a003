@@ -1,0 +1,19 @@
+package test.ch02;
+
+public class Promotion {
+
+	public static void main(String[] args) {
+		byte byteValue = 10;
+		int intVal = byteValue;
+		System.out.println(intVal);
+		
+		char charValue = '가';
+		intVal = charValue;
+
+		intVal = 50;
+		long longVal = intVal;
+		System
+	
+	}
+
+}
