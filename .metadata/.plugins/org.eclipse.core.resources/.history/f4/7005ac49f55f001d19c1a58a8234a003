@@ -1,0 +1,18 @@
+package test.ch03;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+//		int fahrenheit = 100;
+//	    float celcius = String.format(".3f",5/9 * (fahrenheit-32));
+//	    System.out.println("Fahrenheit:"+fahrenheit);
+//	    System.out.println("Celcius:"+celcius);
+		
+		int value = 356; 
+		System.out.println( value - (value%100) ); 
+
+
+
+	}
+
+}

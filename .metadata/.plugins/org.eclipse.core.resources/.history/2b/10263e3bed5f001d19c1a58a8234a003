@@ -1,0 +1,12 @@
+package test.ch03;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		char ch = 'A';
+        char lowerCase = Integer.parseInt(ch) + 32;
+        System.out.println("ch:"+ch1);
+        System.out.println("ch to lowerCase:"+lowerCase);
+    }
+
+}

@@ -1,0 +1,20 @@
+package test.ch03;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+//		int fahrenheit = 100;
+//	    float celcius = String.format(".3f",5/9 * (fahrenheit-32));
+//	    System.out.println("Fahrenheit:"+fahrenheit);
+//	    System.out.println("Celcius:"+celcius);
+		
+		char ch = 'z';
+	    boolean b =  (ch >= 65 & ch <=90 );
+	    System.out.println(b);
+
+
+
+
+	}
+
+}

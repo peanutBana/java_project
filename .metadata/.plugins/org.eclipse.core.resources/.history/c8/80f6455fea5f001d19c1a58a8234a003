@@ -1,0 +1,15 @@
+package test.ch03;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		int top = 5;
+		int bot = 10;
+		int height = 7;
+		
+		double area = (double)((top+bot) * height / 2); 
+				
+		System.out.println(area);
+	}
+
+}

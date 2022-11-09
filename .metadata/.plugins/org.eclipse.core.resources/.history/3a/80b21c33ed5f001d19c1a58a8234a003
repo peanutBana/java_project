@@ -1,0 +1,13 @@
+package test.ch03;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		char ch = 'A';
+		int ch1 = 'A';
+//        char lowerCase = ;
+        System.out.println("ch:"+ch1);
+//        System.out.println("ch to lowerCase:"+lowerCase);
+    }
+
+}
