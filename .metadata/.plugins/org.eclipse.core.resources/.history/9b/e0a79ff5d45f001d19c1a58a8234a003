@@ -1,0 +1,14 @@
+package test.ch03;
+
+public class CompareOperation {
+
+	public static void main(String[] args) {
+		int n1 = 10;
+		int n2 = 10;
+		
+		boolean result1 = (n1 == n2);
+		
+		System.out.println("result1" + result1)
+	}
+
+}
