@@ -5,7 +5,6 @@ public class If_Ex {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 //		System.out.println("점수를 입력하세요: ");		
-//		int score = sc.nextInt();
 		int randNum = (int)(Math.random()*6) + 1;	// 0 ~ 0.1  \
 		if(randNum == 1) {
 			System.out.println("1번");
@@ -24,11 +23,7 @@ public class If_Ex {
 		}
 		else {
 			System.out.println("6번");
-		}
-		
-		
-		System.out.println(randNum);
-		
+		}		
 	}
 
 }
