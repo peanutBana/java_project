@@ -1,0 +1,26 @@
+package test.ch05;
+
+public class ArrayMultiEx {
+
+	public static void main(String[] args) {
+		int scores[][] = {{80,90,96},{76,88}};
+		
+		System.out.println(scores.length);
+		System.out.println(scores[0].length);
+		System.out.println(scores[1].length);
+		System.out.println(scores[0][2]);
+		System.out.println(scores[1][1]);
+		
+		int totalStudent = 0;
+		int totalSum = 0;
+
+		for(int i=0 ; i<=scores.length ; i++) {
+			totalStudent += scores[i].length;
+			
+			for(int k=0 ; k<=scores[i].length ; k++) {
+				totalSum += scores[i][k];
+			}
+		}
+	}
+
+}

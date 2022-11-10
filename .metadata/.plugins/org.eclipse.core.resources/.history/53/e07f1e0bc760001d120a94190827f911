@@ -1,0 +1,13 @@
+package test.ch05;
+
+public class ArrayMultiEx {
+
+	public static void main(String[] args) {
+		int scores[][] = {{80,90,96},{76,88}};
+		
+		System.out.println(scores.length);
+		System.out.println(scores.length[0]);
+		System.out.println(scores.length[1]);
+	}
+
+}

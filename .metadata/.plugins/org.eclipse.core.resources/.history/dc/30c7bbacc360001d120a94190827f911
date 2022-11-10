@@ -1,0 +1,10 @@
+package test.ch05;
+
+public class ArrayEx {
+
+	public static void main(String[] args) {
+		String[] season = {"Spring","Summer","Fall","Winter"};	//배열 선언
+
+	}
+
+}

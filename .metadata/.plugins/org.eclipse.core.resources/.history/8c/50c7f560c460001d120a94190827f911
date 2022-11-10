@@ -1,0 +1,25 @@
+package test.ch05;
+
+public class ArrayEx {
+
+	public static void main(String[] args) {
+		String season [] = {"Spring","Summer","Fall","Winter"};	//배열 선언
+		//String [] season = {"Spring","Summer","Fall","Winter"};	//배열 선언
+		String season2 []; //빈 배열
+		season[1] = "여름";
+		
+		System.out.println(season[0]);
+		System.out.println(season[1]);
+		System.out.println(season[2]);
+		System.out.println(season[3]);
+		System.out.println();
+		
+		int scores[] = {83, 90, 87};
+		//총합, 평균
+		System.out.println();
+		
+		
+		
+	}
+
+}
