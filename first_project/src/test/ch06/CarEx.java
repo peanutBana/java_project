@@ -23,5 +23,4 @@ public class CarEx {
 		System.out.println(car3.speed);
 		System.out.println("-----------");
 	}
-
 }
