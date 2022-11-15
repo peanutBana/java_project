@@ -6,9 +6,14 @@ public class Car {
 		String model;
 		String color;
 		int maxSpeed;
+		static int numbering = 0;
 		int speed;
 //		boolean start = true;		//시동 여부
 		
+		
+	Car(){
+		numbering++;
+	}
 		
 	Car(String model){
 //		this.model = model;
