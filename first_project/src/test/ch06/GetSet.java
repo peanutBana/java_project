@@ -19,6 +19,7 @@ public class GetSet {
 		return stop;
 	}
 	public void setStop(boolean stop) {
+		if(stop == true) this.speed = 0;
 		this.stop = stop;
 	}
 	
