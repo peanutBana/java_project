@@ -1,11 +1,16 @@
 package test.ch06.exam01.package1;
 
 public class B {	
-	//A a = new A();
-	A a1 = new A(true);
+	public void method() {
+		A a = new A();
 		
-	A a2 = new A(1);
+		a.field1 = 1;
+		a.field2 = 1;
+		//a.field3 = 1;
 		
-	//A a3 = new A("str");	//private 못 불러(같은 클래스 안에 있으면 가능)
-;}
+		a.method1();
+		a.method2();
+		//a.method3();  // private는 클래스 안에서만 사용가능
+	}
+}
 
