@@ -20,6 +20,8 @@ public class CustomerApplication {
 		
 		//VIP고객 생성
 		Customer customerYul = new VIPCustomer(10050, "이율곡", 12345);
+		
+		//ArrayList에 추가
 		customerList.add(customerLee);
 		customerList.add(customerShin);
 		customerList.add(customerHong);
@@ -69,6 +71,5 @@ public class CustomerApplication {
 		System.out.println(customer.getCustomerName() + "님의 지불금액: " + cost + "원");
 		System.out.println(customer.getCustomerName() + "님의 현재 보너스 포인트: " + customer.bonusPoint + "원");
 	}
-
 }
 

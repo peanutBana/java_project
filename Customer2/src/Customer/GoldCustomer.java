@@ -15,6 +15,4 @@ public class GoldCustomer extends Customer{
 		bonusPoint += (price * bonusRatio);
 		return price - (int)(price * saleRatio);		//할인금액 return
 	}
-	
-	
 }

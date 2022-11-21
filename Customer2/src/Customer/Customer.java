@@ -17,7 +17,7 @@ public class Customer {
 		initCustomer();
 	}
 
-	private void initCustomer() {	//Customer 초기 설정
+	private void initCustomer() {	//일반 실버 Customer 초기 설정
 	this.customerGrade = "SILVER";
 	bonusRatio = 0.01;
 		

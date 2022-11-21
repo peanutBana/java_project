@@ -19,7 +19,6 @@ public class VIPCustomer extends Customer {
 
 	@Override
 	public String showCustomerInfo() {
-		// TODO Auto-generated method stub
 		return super.showCustomerInfo() + ", 담당 상담원 아이디: " + agentID;
 	}
 
