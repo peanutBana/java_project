@@ -20,6 +20,12 @@ public interface RemoteControl {
 			System.out.println("음소거 해제");
 		}
 	}
-	
+
+	//정적(static) 메소드
+	//구현 코드를 쓸 수 있다.
+	//public이 없어고 컴파일 과정에서 붙는다.
+	static void changeBattery() {
+		System.out.println("음소거 해제");
+	}
 	
 }

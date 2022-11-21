@@ -11,6 +11,15 @@ public class RemoteControlEx {
 		rc.setMute(true);
 		rc.setMute(false);
 		
+		System.out.println("============================");
+		
+		rc = new Audio();
+		rc.turnOn();
+		rc.setVolume(5);
+		
+		rc.setMute(true);
+		rc.setMute(false);
+		
 		
 //		System.out.println(RemoteControl.MAX_VOLUME);
 //		System.out.println(RemoteControl.MIN_VOLUME);
@@ -18,6 +27,7 @@ public class RemoteControlEx {
 //		rc.setVolume(5);
 //		rc.turnOn();
 		
+		RemoteControl.changeBattery();
 		
 	
 	}
