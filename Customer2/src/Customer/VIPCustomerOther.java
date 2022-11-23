@@ -26,4 +26,5 @@ public class VIPCustomerOther extends Customer{
 	public int getAgentID() {
 		return agentID;
 	}
+	
 }
