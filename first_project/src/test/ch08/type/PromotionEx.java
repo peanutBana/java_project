@@ -1,4 +1,4 @@
-package test08.type;
+package test.ch08.type;
 
 public class PromotionEx {
 
