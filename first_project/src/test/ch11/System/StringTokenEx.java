@@ -1,5 +1,7 @@
 package test.ch11.System;
 
+import java.util.StringTokenizer;
+
 public class StringTokenEx {
 
 	public static void main(String[] args) {
@@ -10,7 +12,14 @@ public class StringTokenEx {
 			System.out.println(token);
 		}
 		
-		String data2 = "홍길동/이수홍,박연수";
+		String data2 = "홍길동/이수홍/박연수";
+		StringTokenizer st = new StringTokenizer(data2, "/");
+		System.out.println(st.countTokens());
+		
+		while(st.hasMoreTokens()) {
+			String token = st.nextToken();
+			System.out.println(token);
+		}
 		
 	}
 
