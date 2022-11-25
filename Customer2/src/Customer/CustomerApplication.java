@@ -44,6 +44,8 @@ public class CustomerApplication {
 		}
 	}
 
+	
+	
 	//모든 고객정보 출력
 	public static void showAllCustomer() {
 		System.out.println("============모든 고객 정보 출력==========");
