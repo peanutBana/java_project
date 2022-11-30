@@ -1,6 +1,9 @@
 package java_modeling.ch01.asso3;
 
+import java.util.Vector;
+
 public class Main {
+	public static Vector<Transcript> transcripts = new Vector<Transcript>();		//성적리스트
 
 	public static void main(String[] args) {
 		//학생 객체 생성
@@ -24,10 +27,14 @@ public class Main {
 		
 		t3.setDate("2023");
 		t3.setGrade("C+");
+		
+		transcripts.add(t1);
+		transcripts.add(t2);
+		transcripts.add(t3);
 	
 		
-		for(Transcript ts : s1.getTranscripts()) {
-			System.out.println(ts.getGrade());
+		for(Transcript ts : transcripts) {
+			System.out.println(ts.getGrade()+","+ts.getDate());
 		}
 		
 	}
