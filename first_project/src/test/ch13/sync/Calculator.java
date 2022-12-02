@@ -18,7 +18,7 @@ public class Calculator {
 	}
 	
 	public void setMemory2(int memory) {
-		
+
 		//코드 블록에 동기화 걸기(원하는 코드 범위 선택)
 		synchronized (this) {
 			this.memory = memory;
