@@ -13,9 +13,9 @@ public class SyncEx {
 		user2.setCalculator(calculator);
 		user2.start();
 		
-		User1Thread user3 = new User1Thread();
-		user3.setCalculator(calculator);
-		user3.start();
+//		User1Thread user3 = new User1Thread();
+//		user3.setCalculator(calculator);
+//		user3.start();
 		
 	}
 }

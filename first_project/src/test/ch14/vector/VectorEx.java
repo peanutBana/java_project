@@ -8,8 +8,8 @@ public class VectorEx {
 
 	public static void main(String[] args) {
 //		List<Board> list2 = new Vector<>();	 List는 vector의 부모 인터페이스
-//		Vector<Board> list = new Vector<>(); 
-		ArrayList<Board> list = new ArrayList<>(); 
+		Vector<Board> list = new Vector<>(); 
+//		ArrayList<Board> list = new ArrayList<>(); 
 		
 		Thread threadA = new Thread() {
 			@Override
