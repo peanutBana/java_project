@@ -27,8 +27,10 @@ public class TreeSetEx {
 		System.out.println();
 		//내림차순
 		NavigableSet<Integer> desc = scores.descendingSet();
+		System.out.println("내림차순");
 		for(Integer s : desc) {
-			System.out.println(s);
+			
+			System.out.print(s+ " ");
 		}
 		
 		System.out.println();
@@ -39,11 +41,13 @@ public class TreeSetEx {
 		for(Integer s : rangeSet) {
 			System.out.print(s + " " );
 		}
+		System.out.println();
 		
 		//범위 검색(4 <= score < 9)
-		
-		
-		
+		rangeSet = scores.subSet(4,true, 9, false);		//4포함 9미포함
+		for(Integer s : rangeSet) {
+			System.out.print(s + " " );
+		}
 	}
 
 	
